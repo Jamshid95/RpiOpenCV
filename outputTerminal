@@ -1,0 +1,1093 @@
+(cv) pi@raspberrypi:~/opencv-3.3.0/build $ sudo make clean
+(cv) pi@raspberrypi:~/opencv-3.3.0/build $ sudo cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules     -D BUILD_EXAMPLES=ON ..
+CMake Deprecation Warning at CMakeLists.txt:81 (cmake_policy):
+  The OLD behavior for policy CMP0020 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:85 (cmake_policy):
+  The OLD behavior for policy CMP0022 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:94 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:102 (cmake_policy):
+  The OLD behavior for policy CMP0046 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Detected version of GNU GCC: 80 (800)
+-- Looking for ccache - not found
+-- FP16 is not supported by C++ compiler
+-- Found ZLIB: /usr/lib/arm-linux-gnueabihf/libz.so (found suitable version "1.2.11", minimum required is "1.2.3") 
+-- Found ZLIB: /usr/lib/arm-linux-gnueabihf/libz.so (found version "1.2.11") 
+-- Checking for module 'gstreamer-base-1.0'
+--   No package 'gstreamer-base-1.0' found
+-- Checking for module 'gstreamer-video-1.0'
+--   No package 'gstreamer-video-1.0' found
+-- Checking for module 'gstreamer-app-1.0'
+--   No package 'gstreamer-app-1.0' found
+-- Checking for module 'gstreamer-riff-1.0'
+--   No package 'gstreamer-riff-1.0' found
+-- Checking for module 'gstreamer-pbutils-1.0'
+--   No package 'gstreamer-pbutils-1.0' found
+-- Checking for module 'gstreamer-base-0.10'
+--   No package 'gstreamer-base-0.10' found
+-- Checking for module 'gstreamer-video-0.10'
+--   No package 'gstreamer-video-0.10' found
+-- Checking for module 'gstreamer-app-0.10'
+--   No package 'gstreamer-app-0.10' found
+-- Checking for module 'gstreamer-riff-0.10'
+--   No package 'gstreamer-riff-0.10' found
+-- Checking for module 'gstreamer-pbutils-0.10'
+--   No package 'gstreamer-pbutils-0.10' found
+-- Checking for module 'libdc1394-2'
+--   No package 'libdc1394-2' found
+-- Checking for module 'libdc1394'
+--   No package 'libdc1394' found
+-- Looking for linux/videodev.h
+-- Looking for linux/videodev.h - not found
+-- Looking for linux/videodev2.h
+-- Looking for linux/videodev2.h - found
+-- Looking for sys/videoio.h
+-- Looking for sys/videoio.h - not found
+-- Checking for module 'libavresample'
+--   No package 'libavresample' found
+-- Checking for module 'libgphoto2'
+--   No package 'libgphoto2' found
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+-- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR) 
+-- A library with LAPACK API found.
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Could NOT find JNI (missing: JAVA_AWT_LIBRARY JAVA_JVM_LIBRARY JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 JAVA_AWT_INCLUDE_PATH) 
+-- Could NOT find Matlab (missing: MATLAB_MEX_SCRIPT MATLAB_INCLUDE_DIRS MATLAB_ROOT_DIR MATLAB_LIBRARIES MATLAB_LIBRARY_DIRS MATLAB_MEXEXT MATLAB_ARCH MATLAB_BIN) 
+-- VTK is not found. Please set -DVTK_DIR in CMake to VTK build directory, or to VTK install subdirectory with VTKConfig.cmake file
+-- Caffe:   NO
+-- Protobuf:   NO
+-- Glog:   NO
+CMake Deprecation Warning at /home/pi/opencv_contrib-3.3.0/modules/dnn_modern/CMakeLists.txt:9 (cmake_policy):
+  The OLD behavior for policy CMP0028 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Looking for tiny_dnn.h
+-- Looking for tiny_dnn.h - found
+-- Found tiny-dnn in: /home/pi/opencv-3.3.0/build/3rdparty/tinydnn/tiny-dnn-1.0.0a3
+-- The protocol buffer compiler is not found (PROTOBUF_PROTOC_EXECUTABLE='Protobuf_PROTOC_EXECUTABLE-NOTFOUND')
+-- freetype2:   YES
+-- harfbuzz:    YES
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- No preference for use of exported gflags CMake configuration set, and no hints for include/library directories provided. Defaulting to preferring an installed/exported gflags CMake configuration if available.
+-- Failed to find installed gflags CMake configuration, searching for gflags build directories exported with CMake.
+-- Failed to find gflags - Failed to find an installed/exported CMake configuration for gflags, will perform search for installed gflags components.
+-- Failed to find gflags - Could not find gflags include directory, set GFLAGS_INCLUDE_DIR to directory containing gflags/gflags.h
+-- Failed to find glog - Could not find glog include directory, set GLOG_INCLUDE_DIR to directory containing glog/logging.h
+-- Module opencv_sfm disabled because the following dependencies are not found: Eigen Glog/Gflags
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/core/src/convert.avx2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/core/src/convert.fp16.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/core/src/convert.sse4_1.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/core/mathfuncs_core.sse2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/core/mathfuncs_core.avx.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/core/mathfuncs_core.avx2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/core/stat.sse4_2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/core/stat.avx2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/imgproc/src/corner.avx.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/imgproc/src/filter.avx2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/imgproc/src/imgwarp.avx2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/imgproc/src/imgwarp.sse4_1.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/imgproc/src/undistort.avx2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/imgproc/accum.sse2.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/imgproc/accum.avx.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/imgproc/accum.neon.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/modules/objdetect/src/haar.avx.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/dnn/layers/layers_common.avx.cpp
+-- Excluding from source files list: /home/pi/opencv-3.3.0/build/modules/dnn/layers/layers_common.avx2.cpp
+-- Torch importer has been enabled. To run the tests you have to install Torch ('th' executable should be available) and generate testdata using opencv_extra/testdata/dnn/generate_torch_models.py script.
+-- freetype2:   YES
+-- harfbuzz:    YES
+-- Checking for modules 'tesseract;lept'
+--   No package 'tesseract' found
+--   No package 'lept' found
+-- Tesseract:   NO
+-c:1: DeprecationWarning: SO is deprecated, use EXT_SUFFIX
+-- 
+-- General configuration for OpenCV 3.3.0 =====================================
+--   Version control:               unknown
+-- 
+--   Extra modules:
+--     Location (extra):            /home/pi/opencv_contrib-3.3.0/modules
+--     Version control (extra):     unknown
+-- 
+--   Platform:
+--     Timestamp:                   2019-10-04T17:53:56Z
+--     Host:                        Linux 4.19.66-v7+ armv7l
+--     CMake:                       3.13.4
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               RELEASE
+-- 
+--   CPU/HW features:
+--     Baseline:
+--       requested:                 DETECT
+--       disabled:                  VFPV3 NEON
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++11:                       YES
+--     C++ Compiler:                /usr/bin/c++  (ver 8.3.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):
+--     Linker flags (Debug):
+--     ccache:                      NO
+--     Precompiled headers:         YES
+--     Extra dependencies:          gtk-3 gdk-3 pangocairo-1.0 pango-1.0 atk-1.0 cairo-gobject cairo gdk_pixbuf-2.0 gio-2.0 gobject-2.0 glib-2.0 gthread-2.0 /usr/lib/arm-linux-gnueabihf/libpng.so /usr/lib/arm-linux-gnueabihf/libz.so /usr/lib/arm-linux-gnueabihf/libtiff.so /usr/lib/arm-linux-gnueabihf/libjasper.so /usr/lib/arm-linux-gnueabihf/libjpeg.so avcodec avformat avutil swscale freetype harfbuzz dl m pthread rt
+--     3rdparty dependencies:
+-- 
+--   OpenCV modules:
+--     To be built:                 core flann imgproc ml objdetect phase_unwrapping photo plot reg surface_matching video xphoto bgsegm dnn face freetype fuzzy img_hash imgcodecs shape videoio xobjdetect highgui superres ts bioinspired dpm features2d line_descriptor saliency text calib3d ccalib datasets rgbd stereo structured_light tracking videostab xfeatures2d ximgproc aruco optflow stitching python2 python3
+--     Disabled:                    world contrib_world
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java viz cnn_3dobj cvv dnn_modern hdf matlab sfm
+-- 
+--   GUI: 
+--     QT:                          NO
+--     GTK+ 3.x:                    YES (ver 3.24.5)
+--     GThread :                    YES (ver 2.58.3)
+--     GtkGlExt:                    NO
+--     OpenGL support:              NO
+--     VTK support:                 NO
+-- 
+--   Media I/O: 
+--     ZLib:                        /usr/lib/arm-linux-gnueabihf/libz.so (ver 1.2.11)
+--     JPEG:                        /usr/lib/arm-linux-gnueabihf/libjpeg.so (ver )
+--     WEBP:                        build (ver encoder: 0x020e)
+--     PNG:                         /usr/lib/arm-linux-gnueabihf/libpng.so (ver 1.6.36)
+--     TIFF:                        /usr/lib/arm-linux-gnueabihf/libtiff.so (ver 42 - 4.0.10)
+--     JPEG 2000:                   /usr/lib/arm-linux-gnueabihf/libjasper.so (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+--     GDAL:                        NO
+--     GDCM:                        NO
+-- 
+--   Video I/O:
+--     DC1394 1.x:                  NO
+--     DC1394 2.x:                  NO
+--     FFMPEG:                      YES
+--       avcodec:                   YES (ver 58.35.100)
+--       avformat:                  YES (ver 58.20.100)
+--       avutil:                    YES (ver 56.22.100)
+--       swscale:                   YES (ver 5.3.100)
+--       avresample:                NO
+--     GStreamer:                   NO
+--     OpenNI:                      NO
+--     OpenNI PrimeSensor Modules:  NO
+--     OpenNI2:                     NO
+--     PvAPI:                       NO
+--     GigEVisionSDK:               NO
+--     Aravis SDK:                  NO
+--     UniCap:                      NO
+--     UniCap ucil:                 NO
+--     V4L/V4L2:                    NO/YES
+--     XIMEA:                       NO
+--     Xine:                        NO
+--     Intel Media SDK:             NO
+--     gPhoto2:                     NO
+-- 
+--   Parallel framework:            pthreads
+-- 
+--   Trace:                         YES ()
+-- 
+--   Other third-party libraries:
+--     Use Intel IPP:               NO
+--     Use Intel IPP IW:            NO
+--     Use VA:                      NO
+--     Use Intel VA-API/OpenCL:     NO
+--     Use Lapack:                  NO
+--     Use Eigen:                   NO
+--     Use Cuda:                    NO
+--     Use OpenCL:                  YES
+--     Use OpenVX:                  NO
+--     Use custom HAL:              YES (carotene (ver 0.0.1))
+-- 
+--   OpenCL:                        <Dynamic loading of OpenCL library>
+--     Include path:                /home/pi/opencv-3.3.0/3rdparty/include/opencl/1.2
+--     Use AMDFFT:                  NO
+--     Use AMDBLAS:                 NO
+-- 
+--   Python 2:
+--     Interpreter:                 /usr/bin/python2.7 (ver 2.7.16)
+--     Libraries:                   /usr/lib/arm-linux-gnueabihf/libpython2.7.so (ver 2.7.16)
+--     numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.16.2)
+--     packages path:               lib/python2.7/dist-packages
+-- 
+--   Python 3:
+--     Interpreter:                 /usr/bin/python3 (ver 3.7.3)
+--     Libraries:                   /usr/lib/arm-linux-gnueabihf/libpython3.7m.so (ver 3.7.3)
+--     numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.16.2)
+--     packages path:               lib/python3.7/dist-packages
+-- 
+--   Python (for build):            /usr/bin/python2.7
+-- 
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+-- 
+--   Matlab:                        Matlab not found or implicitly disabled
+-- 
+--   Documentation:
+--     Doxygen:                     NO
+-- 
+--   Tests and samples:
+--     Tests:                       YES
+--     Performance tests:           YES
+--     C/C++ Examples:              YES
+-- 
+--   Install path:                  /usr/local
+-- 
+--   cvconfig.h is in:              /home/pi/opencv-3.3.0/build
+-- -----------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/opencv-3.3.0/build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gle/protobuf/stubs/stringprintf.cc.o
+[  9%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/structurally_valid.cc.o
+[  9%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/strutil.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/time.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wire_format_lite.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any.pb.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/api.pb.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor.cc.o
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc: In member function ‘google::protobuf::{anonymous}::Symbol google::protobuf::DescriptorBuilder::NewPlaceholder(const string&, google::protobuf::DescriptorBuilder::PlaceholderType)’:
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:3637:58: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘class google::protobuf::EnumDescriptor’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+     memset(placeholder_enum, 0, sizeof(*placeholder_enum));
+                                                          ^
+In file included from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:47:
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.h:811:26: note: ‘class google::protobuf::EnumDescriptor’ declared here
+ class LIBPROTOBUF_EXPORT EnumDescriptor {
+                          ^~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:3651:60: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘class google::protobuf::EnumValueDescriptor’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+     memset(placeholder_value, 0, sizeof(*placeholder_value));
+                                                            ^
+In file included from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:47:
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.h:929:26: note: ‘class google::protobuf::EnumValueDescriptor’ declared here
+ class LIBPROTOBUF_EXPORT EnumValueDescriptor {
+                          ^~~~~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:3670:64: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘class google::protobuf::Descriptor’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+     memset(placeholder_message, 0, sizeof(*placeholder_message));
+                                                                ^
+In file included from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:47:
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.h:172:26: note: ‘class google::protobuf::Descriptor’ declared here
+ class LIBPROTOBUF_EXPORT Descriptor {
+                          ^~~~~~~~~~
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc: In member function ‘google::protobuf::FileDescriptor* google::protobuf::DescriptorBuilder::NewPlaceholderFile(const string&)’:
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:3696:46: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘class google::protobuf::FileDescriptor’ with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+   memset(placeholder, 0, sizeof(*placeholder));
+                                              ^
+In file included from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.cc:47:
+/home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.h:1166:26: note: ‘class google::protobuf::FileDescriptor’ declared here
+ class LIBPROTOBUF_EXPORT FileDescriptor {
+                          ^~~~~~~~~~~~~~
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor.pb.cc.o
+
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor_database.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/duration.pb.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/dynamic_message.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/empty.pb.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/extension_set_heavy.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/field_mask.pb.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_reflection.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/gzip_stream.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/printer.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/strtod.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/tokenizer.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream_impl.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/map_field.cc.o
+In file included from /usr/include/c++/8/unordered_map:46,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/stubs/hash.h:144,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/map.h:40,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/map_field_lite.h:34,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/map_field.h:40,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/map_field.cc:31:
+/usr/include/c++/8/bits/hashtable.h: In member function ‘std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::iterator std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::erase(std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::const_iterator) [with _Key = google::protobuf::MapKey; _Value = std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>; _Alloc = google::protobuf::Map<google::protobuf::MapKey, google::protobuf::MapValueRef>::MapAllocator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*> >; _ExtractKey = std::__detail::_Select1st; _Equal = std::equal_to<google::protobuf::MapKey>; _H1 = google::protobuf::hash<google::protobuf::MapKey>; _H2 = std::__detail::_Mod_range_hashing; _Hash = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<true, false, true>]’:
+/usr/include/c++/8/bits/hashtable.h:1871:5: note: parameter passing for argument of type ‘std::_Hashtable<google::protobuf::MapKey, std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>, google::protobuf::Map<google::protobuf::MapKey, google::protobuf::MapValueRef>::MapAllocator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*> >, std::__detail::_Select1st, std::equal_to<google::protobuf::MapKey>, google::protobuf::hash<google::protobuf::MapKey>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::const_iterator’ {aka ‘std::__detail::_Node_const_iterator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>, false, true>’} changed in GCC 7.1
+     _Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal,
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         _H1, _H2, _Hash, _RehashPolicy, _Traits>::
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/hashtable.h: In member function ‘void google::protobuf::Map<Key, T>::clear() [with Key = google::protobuf::MapKey; T = google::protobuf::MapValueRef]’:
+/usr/include/c++/8/bits/hashtable.h:767:42: note: parameter passing for argument of type ‘std::_Hashtable<google::protobuf::MapKey, std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>, google::protobuf::Map<google::protobuf::MapKey, google::protobuf::MapValueRef>::MapAllocator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*> >, std::__detail::_Select1st, std::equal_to<google::protobuf::MapKey>, google::protobuf::hash<google::protobuf::MapKey>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::const_iterator’ {aka ‘std::__detail::_Node_const_iterator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>, false, true>’} changed in GCC 7.1
+       { return erase(const_iterator(__it)); }
+                                          ^
+/usr/include/c++/8/bits/hashtable.h: In member function ‘virtual bool google::protobuf::internal::DynamicMapField::DeleteMapValue(const google::protobuf::MapKey&)’:
+/usr/include/c++/8/bits/hashtable.h:767:42: note: parameter passing for argument of type ‘std::_Hashtable<google::protobuf::MapKey, std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>, google::protobuf::Map<google::protobuf::MapKey, google::protobuf::MapValueRef>::MapAllocator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*> >, std::__detail::_Select1st, std::equal_to<google::protobuf::MapKey>, google::protobuf::hash<google::protobuf::MapKey>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::const_iterator’ {aka ‘std::__detail::_Node_const_iterator<std::pair<const google::protobuf::MapKey, google::protobuf::MapPair<google::protobuf::MapKey, google::protobuf::MapValueRef>*>, false, true>’} changed in GCC 7.1
+       { return erase(const_iterator(__it)); }
+                                          ^
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/message.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/reflection_ops.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/service.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/source_context.pb.cc.o
+[ 10%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/struct.pb.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/mathlimits.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/substitute.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/text_format.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/timestamp.pb.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/type.pb.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/unknown_field_set.cc.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.h:43,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc:35:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const google::protobuf::UnknownField&}; _Tp = google::protobuf::UnknownField; _Alloc = std::allocator<google::protobuf::UnknownField>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<google::protobuf::UnknownField>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<google::protobuf::UnknownField>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’} changed in GCC 7.1
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.h:43,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc:35:
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘std::__cxx11::string* google::protobuf::UnknownFieldSet::AddLengthDelimited(int)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::MergeFromAndDestroy(google::protobuf::UnknownFieldSet*)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::InternalMergeFrom(const google::protobuf::UnknownFieldSet&)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::MergeFrom(const google::protobuf::UnknownFieldSet&)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::AddFixed32(int, google::protobuf::uint32)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::AddVarint(int, google::protobuf::uint64)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::AddFixed64(int, google::protobuf::uint64)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void google::protobuf::UnknownFieldSet::AddField(const google::protobuf::UnknownField&)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘google::protobuf::UnknownFieldSet* google::protobuf::UnknownFieldSet::AddGroup(int)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::UnknownField*, std::vector<google::protobuf::UnknownField> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/field_comparator.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/field_mask_util.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/datapiece.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/default_value_objectwriter.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/field_mask_utility.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/json_escaping.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/json_objectwriter.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/json_stream_parser.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/object_writer.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/proto_writer.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/protostream_objectsource.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/protostream_objectwriter.cc.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/descriptor.h:63,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.h:41,
+                 from /home/pi/opencv-3.3.0/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc:31:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event}; _Tp = google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event; _Alloc = std::allocator<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event*, std::vector<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event> >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event}; _Tp = google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event; _Alloc = std::allocator<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event>]’:
+/usr/include/c++/8/bits/vector.tcc:109:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event*, std::vector<google::protobuf::util::converter::ProtoStreamObjectWriter::AnyWriter::Event> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), std::forward<_Args>(__args)...);
+    ^~~~~~~~~~~~~~~~~
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/type_info.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/utility.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/json_util.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/message_differencer.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/time_util.cc.o
+[ 11%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/type_resolver_util.cc.o
+[ 12%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wire_format.cc.o
+[ 12%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wrappers.pb.cc.o
+[ 12%] Linking CXX static library ../lib/liblibprotobuf.a
+[ 12%] Built target libprotobuf
+[ 12%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc_pch_dephelp.dir/opencv_imgproc_pch_dephelp.cxx.o
+[ 12%] Linking CXX static library ../../lib/libopencv_imgproc_pch_dephelp.a
+[ 12%] Built target opencv_imgproc_pch_dephelp
+[ 12%] Generating precomp.hpp
+[ 12%] Generating precomp.hpp.gch/opencv_imgproc_RELEASE.gch
+[ 12%] Built target pch_Generate_opencv_imgproc
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.o
+[ 12%] Linking CXX static library ../../lib/libopencv_core_pch_dephelp.a
+[ 12%] Built target opencv_core_pch_dephelp
+[ 12%] Generating precomp.hpp
+[ 12%] Generating precomp.hpp.gch/opencv_core_RELEASE.gch
+[ 12%] Built target pch_Generate_opencv_core
+[ 12%] Generating opencl_kernels_core.cpp, opencl_kernels_core.hpp
+Scanning dependencies of target opencv_core
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o
+/home/pi/opencv-3.3.0/modules/core/src/array.cpp: In function ‘IplImage* cvInitImageHeader(IplImage*, CvSize, int, int, int, int)’:
+/home/pi/opencv-3.3.0/modules/core/src/array.cpp:2929:39: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘IplImage’ {aka ‘struct _IplImage’}; use assignment or value-initialization instead [-Wclass-memaccess]
+     memset( image, 0, sizeof( *image ));
+                                       ^
+In file included from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/core_c.h:48,
+                 from /home/pi/opencv-3.3.0/build/modules/core/precomp.hpp:50:
+/home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types_c.h:300:1: note: ‘IplImage’ {aka ‘struct _IplImage’} declared here
+ _IplImage
+ ^~~~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/array.cpp:2933:12: warning: ‘char* strncpy(char*, const char*, size_t)’ specified bound 4 equals destination size [-Wstringop-truncation]
+     strncpy( image->colorModel, colorModel, 4 );
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/array.cpp:2934:12: warning: ‘char* strncpy(char*, const char*, size_t)’ specified bound 4 equals destination size [-Wstringop-truncation]
+     strncpy( image->channelSeq, channelSeq, 4 );
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o
+/home/pi/opencv-3.3.0/modules/core/src/convert.cpp: In function ‘void (* cv::getConvertFuncFp16(int))(const uchar*, size_t, uchar*, size_t, cv::Size, void*)’:
+/home/pi/opencv-3.3.0/modules/core/src/convert.cpp:4855:39: warning: cast between incompatible function types from ‘void (*)(const float*, size_t, short int*, size_t, cv::Size)’ {aka ‘void (*)(const float*, unsigned int, short int*, unsigned int, cv::Size_<int>)’} to ‘cv::UnaryFunc’ {aka ‘void (*)(const unsigned char*, unsigned int, unsigned char*, unsigned int, cv::Size_<int>, void*)’} [-Wcast-function-type]
+         (UnaryFunc)(cvtScaleHalf32f16f), 0, (UnaryFunc)(cvtScaleHalf16f32f),
+                                       ^
+/home/pi/opencv-3.3.0/modules/core/src/convert.cpp:4855:75: warning: cast between incompatible function types from ‘void (*)(const short int*, size_t, float*, size_t, cv::Size)’ {aka ‘void (*)(const short int*, unsigned int, float*, unsigned int, cv::Size_<int>)’} to ‘cv::UnaryFunc’ {aka ‘void (*)(const unsigned char*, unsigned int, unsigned char*, unsigned int, cv::Size_<int>, void*)’} [-Wcast-function-type]
+         (UnaryFunc)(cvtScaleHalf32f16f), 0, (UnaryFunc)(cvtScaleHalf16f32f),
+                                                                           ^
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o
+[ 12%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o
+[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp: In function ‘char* icvJSONParseValue(CvFileStorage*, char*, CvFileNode*)’:
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:538:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     icvParseError( fs, CV_Func, (errmsg), __FILE__, __LINE__ )
+     ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:3568:34: note: in expansion of macro ‘CV_PARSE_ERROR’
+                     case 'u' : { CV_PARSE_ERROR( "'\\uXXXX' currently not supported" ); }
+                                  ^~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:3569:21: note: here
+                     default  : { CV_PARSE_ERROR( "Invalid escape character" ); }
+                     ^~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp: In function ‘size_t base64::base64_encode(const uint8_t*, base64::uint8_t*, size_t, size_t)’:
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:7522:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     case 1U: *dst_cur++ = base64_padding;
+              ~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:7523:5: note: here
+     case 2U: *dst_cur++ = base64_padding;
+     ^~~~
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:7523:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     case 2U: *dst_cur++ = base64_padding;
+              ~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/core/src/persistence.cpp:7524:5: note: here
+     default: *dst_cur   = 0;
+     ^~~~~~~
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o
+/home/pi/opencv-3.3.0/modules/core/src/softfloat.cpp: In function ‘cv::float64_t cv::f64_roundToInt(cv::float64_t, uint_fast8_t, bool)’:
+/home/pi/opencv-3.3.0/modules/core/src/softfloat.cpp:1775:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             if ( ! fracF64UI( uiA ) ) break;
+             ^~
+/home/pi/opencv-3.3.0/modules/core/src/softfloat.cpp:1776:10: note: here
+          case round_near_maxMag:
+          ^~~~
+/home/pi/opencv-3.3.0/modules/core/src/softfloat.cpp: In function ‘cv::float32_t cv::f32_roundToInt(cv::float32_t, uint_fast8_t, bool)’:
+/home/pi/opencv-3.3.0/modules/core/src/softfloat.cpp:1062:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             if ( ! fracF32UI( uiA ) ) break;
+             ^~
+/home/pi/opencv-3.3.0/modules/core/src/softfloat.cpp:1063:10: note: here
+          case round_near_maxMag:
+          ^~~~
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o
+[ 14%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o
+[ 14%] Linking CXX shared library ../../lib/libopencv_core.so
+[ 14%] Built target opencv_core
+[ 14%] Generating opencl_kernels_imgproc.cpp, opencl_kernels_imgproc.hpp
+Scanning dependencies of target opencv_imgproc
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.dispatch.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/blend.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/clahe.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/colormap.cpp.o
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/connectedcomponents.cpp.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_fill_insert(std::vector<_Tp, _Alloc>::iterator, std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = cv::connectedcomponents::Point2ui64; _Alloc = std::allocator<cv::connectedcomponents::Point2ui64>]’:
+/usr/include/c++/8/bits/vector.tcc:478:5: note: parameter passing for argument of type ‘std::vector<cv::connectedcomponents::Point2ui64>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<cv::connectedcomponents::Point2ui64*, std::vector<cv::connectedcomponents::Point2ui64> >’} changed in GCC 7.1
+     vector<_Tp, _Alloc>::
+     ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void cv::connectedcomponents::CCStatsOp::init(int)’:
+/usr/include/c++/8/bits/stl_vector.h:847:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::connectedcomponents::Point2ui64*, std::vector<cv::connectedcomponents::Point2ui64> >’ changed in GCC 7.1
+    _M_fill_insert(end(), __new_size - size(), __x);
+    ^~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void cv::connectedcomponents::CCStatsOp::initElement(int)’:
+/usr/include/c++/8/bits/stl_vector.h:847:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::connectedcomponents::Point2ui64*, std::vector<cv::connectedcomponents::Point2ui64> >’ changed in GCC 7.1
+    _M_fill_insert(end(), __new_size - size(), __x);
+    ^~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void cv::connectedcomponents::LabelingWuParallel<LabelT, PixelT, StatsOp>::SecondScan::operator()(const cv::Range&) const [with LabelT = int; PixelT = unsigned char; StatsOp = cv::connectedcomponents::CCStatsOp]’:
+/usr/include/c++/8/bits/stl_vector.h:847:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::connectedcomponents::Point2ui64*, std::vector<cv::connectedcomponents::Point2ui64> >’ changed in GCC 7.1
+    _M_fill_insert(end(), __new_size - size(), __x);
+    ^~~~~~~~~~~~~~
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.cpp.o
+/home/pi/opencv-3.3.0/modules/imgproc/src/contours.cpp: In function ‘_CvContourScanner* cvStartFindContours_Impl(void*, CvMemStorage*, int, int, int, CvPoint, int)’:
+/home/pi/opencv-3.3.0/modules/imgproc/src/contours.cpp:212:42: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘struct _CvContourScanner’; use assignment or value-initialization instead [-Wclass-memaccess]
+     memset( scanner, 0, sizeof(*scanner) );
+                                          ^
+/home/pi/opencv-3.3.0/modules/imgproc/src/contours.cpp:132:16: note: ‘struct _CvContourScanner’ declared here
+ typedef struct _CvContourScanner
+                ^~~~~~~~~~~~~~~~~
+[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/demosaicing.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/drawing.cpp.o
+In file included from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/core_c.h:48,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/types_c.h:46,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/imgproc_c.h:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:49:
+/home/pi/opencv-3.3.0/modules/imgproc/src/drawing.cpp: In function ‘void cvDrawContours(void*, CvSeq*, CvScalar, CvScalar, int, int, int, CvPoint)’:
+/home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types_c.h:1606:50: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘cv::Point’ {aka ‘class cv::Point_<int>’} with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+     memcpy( &(elem), (reader).ptr, sizeof((elem)));            \
+                                                  ^
+/home/pi/opencv-3.3.0/modules/imgproc/src/drawing.cpp:2651:13: note: in expansion of macro ‘CV_READ_SEQ_ELEM’
+             CV_READ_SEQ_ELEM( pt1, reader );
+             ^~~~~~~~~~~~~~~~
+In file included from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:148:30: note: ‘cv::Point’ {aka ‘class cv::Point_<int>’} declared here
+ template<typename _Tp> class Point_
+                              ^~~~~~
+In file included from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/core_c.h:48,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/types_c.h:46,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/imgproc_c.h:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:49:
+/home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types_c.h:1606:50: warning: ‘void* memcpy(void*, const void*, size_t)’ writing to an object of type ‘cv::Point’ {aka ‘class cv::Point_<int>’} with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+     memcpy( &(elem), (reader).ptr, sizeof((elem)));            \
+                                                  ^
+/home/pi/opencv-3.3.0/modules/imgproc/src/drawing.cpp:2658:17: note: in expansion of macro ‘CV_READ_SEQ_ELEM’
+                 CV_READ_SEQ_ELEM( pt2, reader );
+                 ^~~~~~~~~~~~~~~~
+In file included from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:148:30: note: ‘cv::Point’ {aka ‘class cv::Point_<int>’} declared here
+ template<typename _Tp> class Point_
+                              ^~~~~~
+/home/pi/opencv-3.3.0/modules/imgproc/src/drawing.cpp: In function ‘int cvEllipse2Poly(CvPoint, CvSize, int, int, int, CvPoint*, int)’:
+/home/pi/opencv-3.3.0/modules/imgproc/src/drawing.cpp:2693:55: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘CvPoint’ {aka ‘struct CvPoint’} from an array of ‘__gnu_cxx::__alloc_traits<std::allocator<cv::Point_<int> >, cv::Point_<int> >::value_type’ {aka ‘class cv::Point_<int>’} [-Wclass-memaccess]
+     memcpy( _pts, &pts[0], pts.size()*sizeof(_pts[0]) );
+                                                       ^
+In file included from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/core_c.h:48,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/types_c.h:46,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/imgproc_c.h:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:49:
+/home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types_c.h:866:16: note: ‘CvPoint’ {aka ‘struct CvPoint’} declared here
+ typedef struct CvPoint
+                ^~~~~~~
+In file included from /usr/include/c++/8/algorithm:62,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/base.hpp:55,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:54,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_algo.h: In function ‘void std::__unguarded_linear_insert(_RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >; _Compare = __gnu_cxx::__ops::_Val_comp_iter<cv::CmpEdges>]’:
+/usr/include/c++/8/bits/stl_algo.h:1821:5: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+     __unguarded_linear_insert(_RandomAccessIterator __last,
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algo.h: In function ‘void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<cv::CmpEdges>]’:
+/usr/include/c++/8/bits/stl_algo.h:1840:5: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+     __insertion_sort(_RandomAccessIterator __first,
+     ^~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algo.h:1840:5: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+In file included from /usr/include/c++/8/bits/stl_algo.h:61,
+                 from /usr/include/c++/8/algorithm:62,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/base.hpp:55,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:54,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_heap.h: In function ‘void std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >; _Distance = int; _Tp = cv::PolyEdge; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<cv::CmpEdges>]’:
+/usr/include/c++/8/bits/stl_heap.h:214:5: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+     __adjust_heap(_RandomAccessIterator __first, _Distance __holeIndex,
+     ^~~~~~~~~~~~~
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const cv::Point_<long long int>&}; _Tp = cv::Point_<long long int>; _Alloc = std::allocator<cv::Point_<long long int> >]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<cv::Point_<long long int> >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<cv::Point_<long long int>*, std::vector<cv::Point_<long long int> > >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const cv::PolyEdge&}; _Tp = cv::PolyEdge; _Alloc = std::allocator<cv::PolyEdge>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<cv::PolyEdge>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’} changed in GCC 7.1
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_vector.h: In function ‘void cv::CollectPolyEdges(cv::Mat&, const Point2l*, int, std::vector<cv::PolyEdge>&, const void*, int, int, cv::Point)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/8/algorithm:62,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/base.hpp:55,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:54,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_algo.h: In function ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >; _Size = int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<cv::CmpEdges>]’:
+/usr/include/c++/8/bits/stl_algo.h:1940:5: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+     __introsort_loop(_RandomAccessIterator __first,
+     ^~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algo.h:1940:5: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_algo.h:1954:25: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+    std::__introsort_loop(__cut, __last, __depth_limit, __comp);
+    ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algo.h: In function ‘void cv::FillEdgeCollection(cv::Mat&, std::vector<cv::PolyEdge>&, const void*)’:
+/usr/include/c++/8/bits/stl_algo.h:1968:25: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+    std::__introsort_loop(__first, __last,
+    ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+     std::__lg(__last - __first) * 2,
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     __comp);
+     ~~~~~~~              
+/usr/include/c++/8/bits/stl_algo.h:1885:25: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+    std::__insertion_sort(__first, __first + int(_S_threshold), __comp);
+    ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algo.h:1890:23: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+  std::__insertion_sort(__first, __last, __comp);
+  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::PolyEdge*, std::vector<cv::PolyEdge> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In function ‘void cv::EllipseEx(cv::Mat&, cv::Point2l, cv::Size2l, int, int, int, const void*, int, int)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::Point_<long long int>*, std::vector<cv::Point_<long long int> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::Point_<long long int>*, std::vector<cv::Point_<long long int> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.cpp.o
+In file included from /home/pi/opencv-3.3.0/build/custom_hal.hpp:5,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/src/hal_replacement.hpp:626,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:54:
+/home/pi/opencv-3.3.0/build/carotene/tegra_hal.hpp: In function ‘int TEGRA_FILTERINIT(cvhalFilter2D**, uchar*, size_t, int, int, int, int, int, int, int, int, double, int, int, bool, bool)’:
+/home/pi/opencv-3.3.0/build/carotene/tegra_hal.hpp:1129:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         }
+         ^
+/home/pi/opencv-3.3.0/build/carotene/tegra_hal.hpp:1130:5: note: here
+     default:
+     ^~~~~~~
+/home/pi/opencv-3.3.0/build/carotene/tegra_hal.hpp: In function ‘int TEGRA_SEPFILTERINIT(cvhalFilter2D**, int, int, int, uchar*, int, uchar*, int, int, int, double, int)’:
+/home/pi/opencv-3.3.0/build/carotene/tegra_hal.hpp:1245:29: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         ctx->kernely_data[2]=((int16_t*)kernely_data)[2];
+         ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/build/carotene/tegra_hal.hpp:1246:5: note: here
+     default:
+     ^~~~~~~
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.cpp.o
+/home/pi/opencv-3.3.0/modules/imgproc/src/floodfill.cpp: In function ‘void cvFloodFill(CvArr*, CvPoint, CvScalar, CvScalar, CvScalar, CvConnectedComp*, int, CvArr*)’:
+/home/pi/opencv-3.3.0/modules/imgproc/src/floodfill.cpp:646:40: warning: ‘void* memset(void*, int, size_t)’ clearing an object of non-trivial type ‘CvConnectedComp’ {aka ‘struct CvConnectedComp’}; use assignment or value-initialization instead [-Wclass-memaccess]
+         memset( comp, 0, sizeof(*comp) );
+                                        ^
+In file included from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/imgproc_c.h:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:49:
+/home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc/types_c.h:57:16: note: ‘CvConnectedComp’ {aka ‘struct CvConnectedComp’} declared here
+ typedef struct CvConnectedComp
+                ^~~~~~~~~~~~~~~
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/gabor.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/generalized_hough.cpp.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {std::pair<double, int>}; _Tp = std::pair<double, int>; _Alloc = std::allocator<std::pair<double, int> >]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<std::pair<double, int> >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<std::pair<double, int>*, std::vector<std::pair<double, int> > >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void {anonymous}::GeneralizedHoughGuilImpl::calcScale(double)’:
+/usr/include/c++/8/bits/vector.tcc:109:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<std::pair<double, int>*, std::vector<std::pair<double, int> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), std::forward<_Args>(__args)...);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void {anonymous}::GeneralizedHoughGuilImpl::calcOrientation()’:
+/usr/include/c++/8/bits/vector.tcc:109:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<std::pair<double, int>*, std::vector<std::pair<double, int> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), std::forward<_Args>(__args)...);
+    ^~~~~~~~~~~~~~~~~
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.cpp.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const GCGraph<double>::Vtx&}; _Tp = GCGraph<double>::Vtx; _Alloc = std::allocator<GCGraph<double>::Vtx>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<GCGraph<double>::Vtx, std::allocator<GCGraph<double>::Vtx> >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<GCGraph<double>::Vtx*, std::vector<GCGraph<double>::Vtx, std::allocator<GCGraph<double>::Vtx> > >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const GCGraph<double>::Edge&}; _Tp = GCGraph<double>::Edge; _Alloc = std::allocator<GCGraph<double>::Edge>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<GCGraph<double>::Edge, std::allocator<GCGraph<double>::Edge> >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<GCGraph<double>::Edge*, std::vector<GCGraph<double>::Edge, std::allocator<GCGraph<double>::Edge> > >’} changed in GCC 7.1
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void GCGraph<TWeight>::addEdges(int, int, TWeight, TWeight) [with TWeight = double]’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<GCGraph<double>::Edge*, std::vector<GCGraph<double>::Edge, std::allocator<GCGraph<double>::Edge> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<GCGraph<double>::Edge*, std::vector<GCGraph<double>::Edge, std::allocator<GCGraph<double>::Edge> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In function ‘void cv::grabCut(cv::InputArray, cv::InputOutputArray, cv::Rect, cv::InputOutputArray, cv::InputOutputArray, int, int)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<GCGraph<double>::Vtx*, std::vector<GCGraph<double>::Vtx, std::allocator<GCGraph<double>::Vtx> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hershey_fonts.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intersection.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsd.cpp.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const double&}; _Tp = double; _Alloc = std::allocator<double>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<double, std::allocator<double> >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const cv::LineSegmentDetectorImpl::RegionPoint&}; _Tp = cv::LineSegmentDetectorImpl::RegionPoint; _Alloc = std::allocator<cv::LineSegmentDetectorImpl::RegionPoint>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<cv::LineSegmentDetectorImpl::RegionPoint>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<cv::LineSegmentDetectorImpl::RegionPoint*, std::vector<cv::LineSegmentDetectorImpl::RegionPoint> >’} changed in GCC 7.1
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void cv::LineSegmentDetectorImpl::region_grow(const Point2i&, std::vector<cv::LineSegmentDetectorImpl::RegionPoint>&, double&, const double&)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::LineSegmentDetectorImpl::RegionPoint*, std::vector<cv::LineSegmentDetectorImpl::RegionPoint> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<cv::LineSegmentDetectorImpl::RegionPoint*, std::vector<cv::LineSegmentDetectorImpl::RegionPoint> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h: In member function ‘void cv::LineSegmentDetectorImpl::flsd(std::vector<cv::Vec<float, 4> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/main.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.cpp.o
+[ 15%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/min_enclosing_triangle.cpp.o
+In file included from /usr/include/c++/8/vector:69,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/vector.tcc: In member function ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const double&}; _Tp = double; _Alloc = std::allocator<double>]’:
+/usr/include/c++/8/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<double, std::allocator<double> >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/8/vector:64,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core/types.hpp:53,
+                 from /home/pi/opencv-3.3.0/modules/core/include/opencv2/core.hpp:58,
+                 from /home/pi/opencv-3.3.0/modules/imgproc/include/opencv2/imgproc.hpp:46,
+                 from /home/pi/opencv-3.3.0/build/modules/imgproc/precomp.hpp:46:
+/usr/include/c++/8/bits/stl_vector.h: In function ‘std::vector<double, std::allocator<double> > minEnclosingTriangle::lineEquationParameters(const Point2f&, const Point2f&)’:
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/phasecorr.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spatialgradient.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/undistort.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.cpp.o
+[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/opencl_kernels_imgproc.cpp.o
+[ 16%] Linking CXX shared library ../../lib/libopencv_imgproc.so
+[ 16%] Built target opencv_imgproc
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.o
+[ 16%] Linking CXX static library ../../lib/libopencv_imgcodecs_pch_dephelp.a
+[ 16%] Built target opencv_imgcodecs_pch_dephelp
+[ 16%] Generating precomp.hpp
+[ 16%] Generating precomp.hpp.gch/opencv_imgcodecs_RELEASE.gch
+[ 16%] Built target pch_Generate_opencv_imgcodecs
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o
+[ 16%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o
+[ 17%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o
+[ 17%] Linking CXX shared library ../../lib/libopencv_imgcodecs.so
+[ 17%] Built target opencv_imgcodecs
+[ 17%] Building CXX object modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.o
+[ 17%] Linking CXX static library ../../lib/libopencv_highgui_pch_dephelp.a
+[ 17%] Built target opencv_highgui_pch_dephelp
+[ 17%] Generating precomp.hpp
+[ 17%] Generating precomp.hpp.gch/opencv_highgui_RELEASE.gch
+[ 17%] Built target pch_Generate_opencv_highgui
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.o
+[ 17%] Linking CXX static library ../../lib/libopencv_videoio_pch_dephelp.a
+[ 17%] Built target opencv_videoio_pch_dephelp
+[ 17%] Generating precomp.hpp
+[ 17%] Generating precomp.hpp.gch/opencv_videoio_RELEASE.gch
+[ 17%] Built target pch_Generate_opencv_videoio
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp: In function ‘CvCapture* cvCreateCameraCapture(int)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:180:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (pref) break;
+         ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:187:5: note: here
+     case CAP_VFW: // or CAP_V4L or CAP_V4L2
+     ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:202:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (pref) break; // CAP_VFW or CAP_V4L or CAP_V4L2
+         ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:204:5: note: here
+     case CAP_FIREWIRE:
+     ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp: In function ‘CvCapture* cvCreateFileCaptureWithPreference(const char*, int)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:300:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (apiPreference) break;
+         ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:303:5: note: here
+     case CAP_FFMPEG:
+     ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:305:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (apiPreference) break;
+         ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:308:5: note: here
+     case CAP_VFW:
+     ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:316:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (apiPreference) break;
+         ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:318:5: note: here
+     case CAP_MSMF:
+     ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:326:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+         if (apiPreference) break;
+         ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:358:5: note: here
+     case CAP_IMAGES:
+     ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp: In function ‘CvVideoWriter* cvCreateVideoWriterWithPreference(const char*, int, int, double, CvSize, int)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:389:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             if (apiPreference != CAP_ANY) break;
+             ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:391:9: note: here
+         case CAP_FFMPEG:
+         ^~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:393:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+             if (apiPreference != CAP_ANY) break;
+             ^~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap.cpp:420:9: note: here
+         case CAP_IMAGES:
+         ^~~~
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.o
+[ 17%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o
+In file included from /home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg.cpp:47:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp: In function ‘AVStream* icv_add_video_stream_FFMPEG(AVFormatContext*, AVCodecID, int, int, int, double, int)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:1557:21: error: ‘CODEC_FLAG_GLOBAL_HEADER’ was not declared in this scope
+         c->flags |= CODEC_FLAG_GLOBAL_HEADER;
+                     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:1557:21: note: suggested alternative: ‘AV_CODEC_FLAG_GLOBAL_HEADER’
+         c->flags |= CODEC_FLAG_GLOBAL_HEADER;
+                     ^~~~~~~~~~~~~~~~~~~~~~~~
+                     AV_CODEC_FLAG_GLOBAL_HEADER
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp: In function ‘int icv_av_write_frame_FFMPEG(AVFormatContext*, AVStream*, uint8_t*, uint32_t, AVFrame*)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:1585:30: error: ‘AVFMT_RAWPICTURE’ was not declared in this scope
+     if (oc->oformat->flags & AVFMT_RAWPICTURE) {
+                              ^~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:1585:30: note: suggested alternative: ‘AVFMT_NOFILE’
+     if (oc->oformat->flags & AVFMT_RAWPICTURE) {
+                              ^~~~~~~~~~~~~~~~
+                              AVFMT_NOFILE
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp: In member function ‘void CvVideoWriter_FFMPEG::close()’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:1759:35: error: ‘AVFMT_RAWPICTURE’ was not declared in this scope
+         if( (oc->oformat->flags & AVFMT_RAWPICTURE) == 0 )
+                                   ^~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:1759:35: note: suggested alternative: ‘AVFMT_NOFILE’
+         if( (oc->oformat->flags & AVFMT_RAWPICTURE) == 0 )
+                                   ^~~~~~~~~~~~~~~~
+                                   AVFMT_NOFILE
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp: In member function ‘bool CvVideoWriter_FFMPEG::open(const char*, int, double, int, int, bool)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:2058:32: error: ‘AVFMT_RAWPICTURE’ was not declared in this scope
+     if (!(oc->oformat->flags & AVFMT_RAWPICTURE)) {
+                                ^~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:2058:32: note: suggested alternative: ‘AVFMT_NOFILE’
+     if (!(oc->oformat->flags & AVFMT_RAWPICTURE)) {
+                                ^~~~~~~~~~~~~~~~
+                                AVFMT_NOFILE
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp: In static member function ‘static AVStream* OutputMediaStream_FFMPEG::addVideoStream(AVFormatContext*, AVCodecID, int, int, int, double, AVPixelFormat)’:
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:2363:25: error: ‘CODEC_FLAG_GLOBAL_HEADER’ was not declared in this scope
+             c->flags |= CODEC_FLAG_GLOBAL_HEADER;
+                         ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/opencv-3.3.0/modules/videoio/src/cap_ffmpeg_impl.hpp:2363:25: note: suggested alternative: ‘AV_CODEC_FLAG_GLOBAL_HEADER’
+             c->flags |= CODEC_FLAG_GLOBAL_HEADER;
+                         ^~~~~~~~~~~~~~~~~~~~~~~~
+                         AV_CODEC_FLAG_GLOBAL_HEADER
+make[2]: *** [modules/videoio/CMakeFiles/opencv_videoio.dir/build.make:128: modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:8811: modules/videoio/CMakeFiles/opencv_videoio.dir/all] Error 2
+make: *** [Makefile:163: all] Error 2
